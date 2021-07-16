@@ -1,0 +1,305 @@
+* {
+    box-sizing: border-box;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 62px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.para {
+    font-size: 26px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #000;
+    font-family: sans-serif;
+}
+
+.border {
+    border-bottom: 8px solid #222222;
+}
+
+.front {
+    height: 94.5vh;
+    width: 100%;
+    position: relative;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9),
+            rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+        url('imgs/bg.jpg') no-repeat center center / cover;
+}
+
+
+.logo {
+    position: relative;
+    height: 90px;
+}
+
+.logo img {
+    width: 170px;
+    position: absolute;
+    top: 1.7rem;
+    left: 3.5rem;
+}
+
+.logo .nav {
+    position: absolute;
+    top: 1.75rem;
+    right: 3.5rem;
+}
+
+.logo .nav select {
+    background: black;
+    margin-right: 1.65rem;
+    border-radius: 3px;
+    border: 1.5px solid #998;
+    padding: 0.5rem 0.6rem;
+    font-weight: 700;
+}
+
+.logo .nav a {
+    background: red;
+    border-radius: 4px;
+    padding: 0.5rem 1.1rem;
+}
+
+.bg-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9.6rem;
+}
+
+.bg-content .bg-first-p {
+    margin-top: 0.95rem;
+}
+
+.bg-content .bg-second-p {
+    font-size: 19.2px;
+    margin-top: 1.85rem;
+}
+
+.bg-content form {
+    position: relative;
+    margin-top: 1.2rem;
+    overflow: hidden;
+}
+
+.bg-content input {
+    padding: 1.63rem 43em 1.63rem 0.5rem;
+    border-radius: 2px;
+    color: #000;
+    border: none;
+    border-color: #A2A2A2;
+}
+
+.bg-content a {
+    position: absolute;
+    background: red;
+    right: 0;
+    bottom: 0;
+    border-radius: 0 2px 2px 0;
+    padding: 1.05rem 2rem 1.05rem 1.3rem;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+h2+.para {
+    margin-top: 1.5rem;
+}
+
+div .para {
+    margin-bottom: 0.4rem;
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+    margin: 1.1rem 0 0 0;
+}
+
+.first div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex: 3;
+    text-align: left;
+    top: 7.5rem;
+    left: 13rem;
+}
+
+.first img {
+    display: flex;
+    flex: 2;
+    overflow: hidden;
+    padding: 0 11.5rem 3rem 0;
+}
+
+.second {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1.9rem;
+}
+
+.second img {
+    width: 33%;
+    margin: 0 13.5rem 3.5rem 0;
+}
+
+.second div {
+    position: relative;
+    top: 6.3rem;
+    right: 5.5rem;
+}
+
+.third {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5.3rem;
+}
+
+.third div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex: 3;
+    text-align: left;
+    top: 12.2rem;
+    left: 13rem;
+}
+
+.third img {
+    display: flex;
+    flex: 2;
+    overflow: hidden;
+    padding: 3rem 11rem 0 0;
+}
+
+.fourth {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4.4rem;
+}
+
+.fourth img {
+    width: 33%;
+    margin: 0 5.4rem 3.5rem 0;
+}
+
+.fourth div {
+    position: relative;
+    top: 4.4rem;
+    right: 2.4rem;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4.3rem;
+}
+
+.faq h2 {
+    text-align: center;
+    margin-bottom: 3.2rem;
+}
+
+.faq .questions {
+    margin-bottom: 3.7rem;
+}
+
+.faq div div {
+    font-size: 26px;
+    background: #313131;
+    margin: 0 22rem 0.55rem 22rem;
+    padding: 1.3rem 0 1.3rem 2rem;
+}
+
+.faq div span {
+    float: right;
+    margin-right: 2rem;
+}
+
+.faq .join {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.faq .join p {
+    font-size: 19.2px;
+    margin-bottom: 1rem;
+}
+
+.faq .join form {
+    position: relative;
+}
+
+.faq .join input {
+    padding: 1.63rem 43em 1.63rem 0.5rem;
+    border-radius: 2px;
+    color: #000;
+    border: none;
+    border-color: #A2A2A2;
+}
+
+.faq .join a {
+    position: absolute;
+    background: red;
+    right: 24rem;
+    border-radius: 0 2px 2px 0;
+    padding: 1.05rem 2rem 1.05rem 1.3rem;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+footer {
+    margin-left: 19.5rem;
+    margin-top: 4rem;
+}
+
+footer p {
+    margin: 1.5rem 0 2rem 0;
+    font-size: 16px;
+    color: #6F6F6F;
+}
+
+select+p {
+    font-size: 13px;
+}
+
+footer div {
+    display: flex;
+}
+
+footer div div {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+}
+
+footer a {
+    color: #6F6F6F;
+    padding: 0 7.5rem 1rem 0;
+}
+
+footer select {
+    background: #000;
+    border: 1px solid #6F6F6F;
+    border-radius: 2px;
+    padding: 1rem 2rem 1rem 1.5rem;
+    margin-top: 1rem;
+    color: #A6A6A6;
+}
