@@ -1,3 +1,3 @@
-# practice.github.io
+# netflix.github.io
 
 Netflix homepage clone
